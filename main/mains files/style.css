@@ -1,0 +1,119 @@
+.movie {
+  background-color: #767974;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.movie .div {
+  background-color: #d6d8d4;
+  overflow: hidden;
+  width: 1440px;
+  height: 2676px;
+  position: relative;
+}
+
+.movie .text {
+  position: absolute;
+  top: 222px;
+  left: 615px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.movie .text1 {
+  font-weight: 600;
+}
+
+.movie .span {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+}
+
+.movie .description {
+  position: absolute;
+  top: 1203px;
+  left: 93px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.movie .content {
+  position: absolute;
+  width: 1259px;
+  top: 1324px;
+  left: 91px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.movie .text2 {
+  font-weight: bold;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.movie .banner {
+  position: absolute;
+  width: 1440px;
+  height: 712px;
+  top: 392px;
+  left: 0;
+  object-fit: cover;
+}
+
+.movie .logo {
+  position: absolute;
+  width: 1440px;
+  height: 141px;
+  top: -2px;
+  left: 0;
+  background-color: #190101;
+}
+
+.movie .logo1 {
+  position: absolute;
+  width: 354px;
+  height: 98px;
+  top: 19px;
+  left: 540px;
+  object-fit: cover;
+}
+
+:root {
+  --variable-collection-0: 0px;
+}
+
+.button {
+  position: absolute;
+  width: 260px;
+  height: 94px;
+  top: 2273px;
+  left: 632px;
+  object-fit: cover;
+  background-color: rgb(134, 119, 119);
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  border: 2px solid #555555;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}

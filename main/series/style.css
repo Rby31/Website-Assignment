@@ -1,0 +1,188 @@
+.series {
+  background-color: #453c3cf5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.series .div {
+  background-color: #d6d8d4;
+  width: 1440px;
+  height: 2676px;
+  position: relative;
+}
+
+.series .text {
+  position: absolute;
+  top: 287px;
+  left: 598px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.series .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 141px;
+  top: -2px;
+  left: 0;
+  background-color: #190101;
+}
+
+.series .logo {
+  position: absolute;
+  width: 354px;
+  height: 98px;
+  top: 19px;
+  left: 540px;
+  object-fit: cover;
+}
+
+.series .img-vilangu {
+  top: 535px;
+  position: absolute;
+  width: 300px;
+  height: 292px;
+  left: 88px;
+}
+
+.series .img-dhuruvam {
+  top: 901px;
+  position: absolute;
+  width: 300px;
+  height: 292px;
+  left: 88px;
+}
+
+.series .img-november {
+  top: 1267px;
+  position: absolute;
+  width: 300px;
+  height: 292px;
+  left: 88px;
+}
+
+.series .img-fingertip {
+  top: 1633px;
+  position: absolute;
+  width: 300px;
+  height: 292px;
+  left: 88px;
+}
+
+.series .img-paper {
+  top: 2017px;
+  object-fit: cover;
+  position: absolute;
+  width: 300px;
+  height: 292px;
+  left: 88px;
+}
+
+.series .flexcontainer {
+  gap: 21px;
+  width: 646px;
+  height: 178px;
+  top: 2080px;
+  left: 598px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.series .span-wrapper {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.series .text-wrapper {
+  font-weight: 600;
+}
+
+.series .span {
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.series .flexcontainer-2 {
+  gap: 21px;
+  width: 585px;
+  height: 178px;
+  top: 591px;
+  left: 659px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.series .flexcontainer-3 {
+  gap: 21px;
+  width: 656px;
+  height: 178px;
+  top: 957px;
+  left: 619px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.series .flexcontainer-4 {
+  gap: 21px;
+  width: 871px;
+  height: 183px;
+  top: 1323px;
+  left: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.series .flexcontainer-5 {
+  gap: 28px;
+  width: 699px;
+  height: 178px;
+  top: 1689px;
+  left: 653px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+:root {
+  --variable-collection-0: 0px;
+}
+
+.button {
+  position: absolute;
+  width: 260px;
+  height: 94px;
+  top: 768px;
+  left: 30px;
+  object-fit: cover;
+  background-color: rgb(134, 119, 119);
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  border: 2px solid #555555;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}

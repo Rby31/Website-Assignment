@@ -1,0 +1,192 @@
+.movies {
+  background-color: #453c3cf5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.movies .div {
+  background-color: #d6d8d4;
+  width: 1440px;
+  height: 2676px;
+  position: relative;
+}
+
+.movies .text {
+  position: absolute;
+  top: 287px;
+  left: 598px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.movies .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 141px;
+  top: -2px;
+  left: 0;
+  background-color: #190101;
+}
+
+.movies .logo {
+  position: absolute;
+  width: 354px;
+  height: 98px;
+  top: 19px;
+  left: 540px;
+  object-fit: cover;
+}
+
+.movies .img-tevar {
+  top: 535px;
+  left: 88px;
+  object-fit: cover;
+  position: absolute;
+  width: 300px;
+  height: 292px;
+}
+
+.movies .img-anbe {
+  top: 901px;
+  left: 88px;
+  position: absolute;
+  width: 300px;
+  height: 292px;
+}
+
+.movies .img-perumal {
+  top: 1267px;
+  left: 88px;
+  object-fit: cover;
+  position: absolute;
+  width: 300px;
+  height: 292px;
+}
+
+.movies .img-soorarai {
+  top: 1633px;
+  left: 88px;
+  object-fit: cover;
+  position: absolute;
+  width: 300px;
+  height: 292px;
+}
+
+.movies .img-kaithi {
+  top: 1995px;
+  left: 91px;
+  object-fit: cover;
+  position: absolute;
+  width: 300px;
+  height: 292px;
+}
+
+.movies .flexcontainer {
+  gap: 21px;
+  width: 408px;
+  height: 178px;
+  top: 2078px;
+  left: 732px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.movies .span-wrapper {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.movies .text-wrapper {
+  font-weight: 600;
+}
+
+.movies .span {
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.movies .flexcontainer-2 {
+  gap: 21px;
+  width: 585px;
+  height: 178px;
+  top: 593px;
+  left: 690px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.movies .flexcontainer-3 {
+  gap: 21px;
+  width: 656px;
+  height: 178px;
+  top: 958px;
+  left: 638px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.movies .flexcontainer-4 {
+  gap: 21px;
+  width: 871px;
+  height: 183px;
+  top: 1325px;
+  left: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.movies .flexcontainer-5 {
+  gap: 28px;
+  width: 699px;
+  height: 178px;
+  top: 1692px;
+  left: 626px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+}
+
+:root {
+  --variable-collection-0: 0px;
+}
+
+
+.button {
+  position: absolute;
+  width: 260px;
+  height: 94px;
+  top: 768px;
+  left: 30px;
+  object-fit: cover;
+  background-color: rgb(134, 119, 119);
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  border: 2px solid #555555;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
